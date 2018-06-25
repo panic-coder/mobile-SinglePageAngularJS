@@ -1,0 +1,25 @@
+<md-dialog aria-label="Shubham" ng-controller="dashboardCtr">
+  <form>
+    <md-toolbar style="background-color:grey;">
+      <div class="md-toolbar-tools">
+        <h2>{{locals.name}}</h2>
+        <span flex></span>
+        <md-button class="md-icon-button" ng-click="cancel()">
+          <md-icon md-svg-src="bower_components/material-design-icons/navigation/svg/design/ic_close_48px.svg" aria-label="Close dialog"></md-icon>
+        </md-button>
+      </div>
+    </md-toolbar>
+
+    <md-dialog-content>
+      <div class="md-dialog-content">
+        <img ng-src="{{locals.image.large}}">
+      </div>
+      <div class="">Rating :
+        <div ng-repeat="d in rate">*</div>
+      </div>
+
+      <p style="padding-left:20px;">Description : {{locals.description}}</p>
+    </md-dialog-content>
+
+  </form>
+</md-dialog>

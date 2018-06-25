@@ -1,0 +1,28 @@
+ .toolbarUsage md-toolbar  .md-button.iconButton .favouriteIcon {
+  fill: #696969;
+}
+
+#toolColor{
+  background-color:	#dbf0fd;
+}
+
+.toolbarMenuColor svg{
+  fill: #696969;
+}
+
+#toolbarNameColor{
+  color: #696969;
+}
+
+.my-icon svg{
+   fill : #696969;
+}
+
+.toolbarUsage md-button:hover{
+  background-color: black;
+}
+
+.iconButton:hover{
+  color: black;
+  width:80px;
+}
